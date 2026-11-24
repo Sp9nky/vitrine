@@ -24,7 +24,7 @@ jobs:
         id: release
 
   build:
-    runs-on: macos-latest
+    runs-on: macos-15-intel
     env:
       THEOS: ${{ github.workspace }}/theos
     steps:
